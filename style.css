@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+  color:white;  
+}
+nav h1{
+    margin-left: 5%;
+}
+nav{
+display: flex;
+justify-content: space-around;
+background: rgb(3, 3, 42);
+height: 50px;
+align-items: center;
+}
+nav ul{
+ display: flex;
+ margin-left: auto; 
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 2rem;
+    font-size: 1.7rem;
+   }
+
+   
+   @media screen and (max-width: 767px) {
+
+      nav h1{
+        display: none;
+      }
+      nav ul{
+        display:block;
+   width: 100%;
+ 
+        height:100%;
+        text-align: center;
+       
+       }
+       nav ul li {
+        padding: 2rem;
+  
+        width: 100%;
+       }
+       nav{
+        height: 400px;
+       }
+    }
+  
